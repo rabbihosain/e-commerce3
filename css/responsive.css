@@ -1,0 +1,76 @@
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .container {
+        max-width: 1150px;
+    }
+    .main-menu ul li {
+        margin-right: 30px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+    .container {
+        max-width: 950px;
+    }
+    .main-menu ul li {
+        margin-right: 20px;
+    }
+    .footer-menu ul li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+}
+@media screen and (max-width: 991px){
+    .main-menu ul li {
+        margin-right: 20px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    .product-tab ul li {
+        margin-right: 30px;
+    }
+    .subscribe-wrapper button {
+        font-size: 12px;
+    }
+    .header-area .col-md-5{
+        max-width: 70%;
+        flex: none;
+    }
+    .header-area .col-md-2{
+        max-width: 30%;
+    }
+    .subscribe-area.mt-100.mb-100 {
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .footer-menu ul li {
+        margin-right: 20px;
+    }
+    .footer-icon span {
+        display: none;
+    }
+}
+@media screen and (max-width: 767px){
+    .slider-text {
+        padding-left: 30px;
+    }
+    .subscribe-wrapper input {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .subscribe-wrapper.text-center {
+        padding: 0 25px;
+    }
+    .mean-bar::before {
+        position: absolute;
+        content: "Menu";
+        color: #fff;
+        top: 0;
+        left: 10px;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 50px;
+    }
+}
+@media screen and (max-width: 576px){
+    
+}
